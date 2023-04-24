@@ -6,9 +6,8 @@ export default function AssetExample() {
     
     <View style={styles.container}>
     <Image style={styles.logo} source={require('../assets/xbox.png')} />
-      <Text style={styles.paragraph}>
-        Welcome to the game pass!
-      </Text>
+    <Image style={styles.logo2} source={require('../assets/image2.png')} />
+
     </View>
   );
 }
@@ -26,11 +25,19 @@ const styles = StyleSheet.create({
     fontWeight: '',
     textAlign: 'center',
   },
+
   logo: {
   alignItems: 'center', 
   justifyContent: 'flex-start',
   margin: 30,    
   height: 50,
   width: 50,
+  },
+  logo2: {
+  alignItems: 'center', 
+  justifyContent: 'flex-start',
+  margin: 10,    
+  height: 210,
+  width: 210,
   }
 });

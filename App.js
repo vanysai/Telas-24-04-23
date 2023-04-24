@@ -14,23 +14,22 @@ export default function App() {
     alert("Parabéns, você fez login!")
   }
   function botao2(){
-    alert("Parabéns, você fez a sua conta!")
+    alert("Parabéns, você entrou para ajeitar seu console!")
   }
 
   return (
     <View style={styles.container}>
       <AssetExample />
       <Text style={styles.paragraph}>
-      You've made an excellent choice. Let's get you signed up!     
+      Manage your console and connect with friends all in one place     
       </Text>
       <Pressable style={styles.botaoverde} onPress={() => botao2()}>
-        <Text style={styles.buttonText}>Sing me up</Text>
+        <Text style={styles.buttonText}>SING IN</Text>
       </Pressable>
        <Pressable style={styles.botaocinza} onPress={() => botao()}>
-        <Text style={styles.buttonText}>Alredy a member? Sing in</Text>
+        <Text style={styles.buttonText}>SET UP CONSOLE</Text>
       </Pressable>
 
-      <Text style={styles.text}>Trouble signing in?</Text>
     </View>
   );
 }
@@ -40,14 +39,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: 'green',
-    margin: 0,
+    backgroundColor: "#0f0e0e",
     padding: 8,
   },
   paragraph: {
     color: 'white',
-    margin: 23,
-    fontSize: 14,
+    margin: 80,
+    fontSize: 13,
     fontWeight: '',
     textAlign: 'center',
   },
@@ -72,11 +70,5 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 16,
     fontWeight: 'bold',
-  },
-  text:{
-
-   margin:10,
-   textAlign: 'center'
-
   },
 });

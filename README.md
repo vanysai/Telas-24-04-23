@@ -1,7 +1,11 @@
-# Tela XBox (Game Pass) Xbox (Logar na conta)
+# Sample Snack app
 
-Tela feita em ReactNative.
+Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-![image](https://user-images.githubusercontent.com/99412036/234033573-b86107a0-32a5-4e02-a166-fadd807a3b2a.png)
-![image](https://user-images.githubusercontent.com/99412036/234039140-15c78c78-6832-4c55-9a44-b54a4b3e9352.png)
+When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
+All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+
+If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+
+Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
