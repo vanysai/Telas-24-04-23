@@ -1,4 +1,4 @@
-# Tela XBobx
+# Tela XBox
 
 Tela feita em ReactNative.
 
