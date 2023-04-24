@@ -1,4 +1,4 @@
-# Tela XBox
+# Tela XBox (Game Pass) Xbox (Logar na conta)
 
 Tela feita em ReactNative.
 
