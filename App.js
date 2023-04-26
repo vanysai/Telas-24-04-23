@@ -10,26 +10,18 @@ import { Card } from 'react-native-paper';
 
 export default function App() {
 
-  function botao(){
-    alert("Parabéns, você fez login!")
+function botao2(){
+    alert("Parabéns, você entrou na sua conta!")
   }
-  function botao2(){
-    alert("Parabéns, você entrou para ajeitar seu console!")
-  }
-
   return (
     <View style={styles.container}>
-      <AssetExample />
-      <Text style={styles.paragraph}>
-      Manage your console and connect with friends all in one place     
-      </Text>
-      <Pressable style={styles.botaoverde} onPress={() => botao2()}>
-        <Text style={styles.buttonText}>SING IN</Text>
-      </Pressable>
-       <Pressable style={styles.botaocinza} onPress={() => botao()}>
-        <Text style={styles.buttonText}>SET UP CONSOLE</Text>
-      </Pressable>
-
+        <View style={styles.NavbarC}>
+          <Text style={styles.navbarText}>Cancel</Text>
+        </View>
+        <AssetExample/>
+        <Pressable style={styles.botaoverde} onPress={() => botao2()}>
+          <Text style={styles.buttonText}>LET'S GO</Text>
+        </Pressable>
     </View>
   );
 }
@@ -39,30 +31,16 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: "#0f0e0e",
-    padding: 8,
-  },
-  paragraph: {
-    color: 'white',
-    margin: 80,
-    fontSize: 13,
-    fontWeight: '',
-    textAlign: 'center',
+    backgroundColor: '#0f0e0e',
+    padding: 10,
   },
   botaoverde: {
-    backgroundColor: '#68946a',
+    backgroundColor: '#13541a',
     padding: 10,
     margin: 10,
     borderRadius: 30,
     textAlign: 'center',
-  },
-  botaocinza:{
-    margin:10,
-    padding: 10,
-    borderRadius: 5,
-    backgroundColor: '#717571',
-    borderRadius: 30,
-    textAlign:'center',
+    marginTop: 150,
   },
 
   buttonText: {
@@ -71,4 +49,21 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
   },
+  NavbarC: {
+    position: "absolute",
+    fontSize: 24,
+    top: 35,
+    height: 40,
+    width: "100%",
+    padding: 10,
+    borderWidth: 1,
+    borderRadius: 10,
+  },
+  navbarText: {
+    color: 'blue',
+    textAlign: 'left',
+    fontSize: 16,
+    fontWeight: 'normal',
+  },
+  
 });
